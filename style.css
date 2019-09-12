@@ -6,12 +6,31 @@ body {
     text-align: center;
 }
 
+.boyyes {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    right: 10%;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boyyes > div {
+    margin: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 20%;
+    height: 50%;
+}
+
 .wrapper {
     border-radius: 1em;
     position: absolute;
-    top: 50%;
+    top: 10%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,0%);
     display: flex;
     flex-direction: column;
     padding: 1em;
