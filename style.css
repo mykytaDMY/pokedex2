@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    height: 100vh;
+    text-transform: uppercase;
+    font-family: 'Chilanka', cursive;
+    text-align: center;
+}
+
+.wrapper {
+    border-radius: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    background: rgba(0,0,0,.5);
+}
+
+.title {
+    color: #ddd;
+}
+
+input,
+button {
+    text-align: center;
+    font-family: 'Chilanka', cursive;
+    font-weight: bold;
+    color: #222;
+    border-radius: 5px;
+    background: #eee;
+    border: 0;
+    padding: 1em 2em;
+    margin: 0 0 1em;
+}
